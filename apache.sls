@@ -17,6 +17,15 @@ libapache2-mod-php:
       - pkg: apache2
     - makedirs: True
 
+/etc/skel/public_html/index.html:
+  file.managed:
+    - source: salt://skel/user.html
+    - makedirs: True
+    - require:
+      - pkg: apache2
+      - file: /etc/apache2/mods-enabled/userdir.conf
+
+
 /etc/apache2/mods-available/php7.0.conf:
   file.managed:
     - source: salt://apache2/php7.0.conf
