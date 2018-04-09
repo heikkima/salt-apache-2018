@@ -1,0 +1,23 @@
+<script src="https://unpkg.com/vue"></script>
+
+<div id="app">
+  <h1>{{greeting}}</h1>
+  <label> What is your name?: </label>
+  <input v-model="name">
+</div>
+
+<script>
+
+new Vue({
+  el: '#app',
+  data: {
+    name: '',
+  },
+  computed: {
+    greeting() {
+      return "Welcome to Website A " + this.name
+    }
+  },
+})
+
+</script>
