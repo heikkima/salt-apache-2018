@@ -1,12 +1,7 @@
-All the exercises are in different branches. 
+# H5 kotitehtävä raportti
+Kotitehtävät olivat seuraavanlaiset:
 
-
-Homework reports:
-
-h2: https://heikkima.wordpress.com/2018/04/04/palvelinten-hallinta-2018-h2/
-
-h3: https://heikkima.wordpress.com/2018/04/16/palvelinten-hallinta-2018-h3/
-
-h4: https://heikkima.wordpress.com/2018/04/23/palvelinten-hallinta-2018-h4/
-
-h5: https://heikkima.wordpress.com/2018/05/07/palvelinten-hallinta-2018-h5/
+Poikkeuksellisesti pidempi palautusaika w18 perjantaina 2018-05-04 12:00 asti. Vappupäivänä ei ole opetusta. Hauskaa Wappua!
+a) Valitse aihe omaksi kurssityöksi ja varaa se kommenttina aikataulusivun perään.
+b) Julkaise raportti MarkDownilla. Jos käytät GitHub:ia, se tekee muotoilun automaattisesti “.md”-päätteisiin dokumentteihin.
+c) Aja oma Salt-tila suoraa git-varastosta. Voit joko tehdä tilan alusta lähtien itse tai forkata sirottimen.
