@@ -26,3 +26,5 @@ Oppitunnilla loin myös Teron repositoryyn uuden featuren, jossa asennetaan myö
 
 Kaikki muutokset on nähtävillä commits ikkunasta (https://github.com/heikkima/sirotin/commits/master)
 
+Ajoin Repositoryn (https://github.com/heikkima/sirotin) README:ssa näkyvillä olevat komennot. Ja salt-stack hoiti loput. Koneelle asentu kaikki ohjelmat jotka oli määritelty desk tilassa (https://github.com/heikkima/sirotin/blob/master/srv/salt/desk/init.sls)
+
