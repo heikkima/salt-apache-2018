@@ -12,7 +12,7 @@ sudo mv /etc/salt/minion /etc/salt/minion.original
 
 printf "master: " >> minion
 curl -s http://whatismyip.akamai.com/ >> minion
-printf "\nid: master" >> minion
+printf "\nid: loadbalancer" >> minion
 sudo mv minion /etc/salt/
 
 cd /srv/
