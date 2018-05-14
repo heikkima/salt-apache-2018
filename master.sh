@@ -19,8 +19,8 @@ cd /srv/
 sudo git clone -b final-module https://github.com/heikkima/salt-apache-2018.git salt
 
 sudo systemctl restart salt-minion.service
-sudo salt-key
 
 echo "
 Please accept own key
+sudo salt-key -A
 "
