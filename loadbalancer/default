@@ -1,7 +1,7 @@
 upstream myapp1 {
-        server 54.154.6.168;
-        # server srv2.example.com;
-        # server srv3.example.com;
+        # server minion_IP; 
+        # server minion_IP;
+        # server minion_IP;
 }
 
 server {
