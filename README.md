@@ -9,3 +9,5 @@ After running script you will have to accept own key ``sudo salt-key -A``
 
 To install minion:
 ```
+wget https://raw.githubusercontent.com/heikkima/salt-apache-2018/final-module/minion.sh && sudo bash minion.sh
+```
