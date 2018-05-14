@@ -1,9 +1,13 @@
 #!/bin/bash
 
-echo "Installing salt-master"
+echo "
+Installing salt-master
+"
 sudo apt-get update && sudo apt-get install -y salt-master salt-minion
 
-echo "Create new minion file"
+echo "
+Create new minion file
+"
 sudo mv /etc/salt/minion /etc/salt/minion.original
 
 printf "master: " >> minion
@@ -16,3 +20,7 @@ sudo git clone -b final-module https://github.com/heikkima/salt-apache-2018.git 
 
 sudo systemctl restart salt-minion.service
 sudo salt-key
+
+echo "
+Please accept own key
+"
