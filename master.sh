@@ -8,9 +8,9 @@ sudo mv /etc/salt/minion /etc/salt/minion.original
 
 printf "master: " >> minion
 curl -s http://whatismyip.akamai.com/ >> minion
-printf "id: master" >> minion
+printf "\nid: master" >> minion
 sudo mv minion /etc/salt/
 
 cd /srv/
-git clone -b final-module https://github.com/heikkima/salt-apache-2018.git salt
+sudo git clone -b final-module https://github.com/heikkima/salt-apache-2018.git salt
 
