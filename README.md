@@ -1,4 +1,7 @@
-To run copy this to your linux terminal
+To install master:
 ```
-wget https://raw.githubusercontent.com/heikkima/salt-apache-2018/final-module/master.sh && bash master.sh
+wget https://raw.githubusercontent.com/heikkima/salt-apache-2018/final-module/master.sh && sudo bash master.sh
+```
+
+To install minion:
 ```
