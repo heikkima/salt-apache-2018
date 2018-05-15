@@ -1,4 +1,4 @@
-Before starting, make sure that the master computer if listening 4505/tcp and 4506/tcp
+Before starting, make sure that the master computer is listening 4505/tcp and 4506/tcp
 
 ### To install master:
 ```
