@@ -3,7 +3,7 @@
 echo "
 Installing salt-master
 "
-sudo apt-get update && sudo apt-get install -y salt-master salt-minion
+sudo apt-get update && sudo apt-get install -y salt-master salt-minion git
 
 echo "
 Create new minion file
