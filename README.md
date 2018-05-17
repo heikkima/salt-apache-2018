@@ -1,6 +1,6 @@
-All the exercises are in different branches.
+### All the source codes are in different branches.
 
-Homework reports:
+### Homework reports:
 
 h1: https://heikkima.wordpress.com/2018/04/02/palvelinten-hallinta-2018-h1/
 
