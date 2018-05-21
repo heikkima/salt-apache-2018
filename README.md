@@ -1,3 +1,6 @@
+This module installs NGINX and configures loadbalancer server and adds webservers to the loadbalancer cluster.
+More info in https://heikkima.wordpress.com/2018/05/15/palvelinten-hallinta-2018-loadbalancer-moduuli/
+
 Before starting, make sure that the master computer is listening 4505/tcp and 4506/tcp
 
 ### To install master:
